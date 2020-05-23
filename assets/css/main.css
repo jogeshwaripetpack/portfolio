@@ -2368,11 +2368,12 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			/* .image.main img {
+			 .image.main img {
 				width: 100%;
-				width: 80%;
-				height:400px
-			} */
+				max-width: 600px;
+				max-height: 500px;
+				margin:0 auto;
+			}
 
 			@media screen and (max-width: 736px) {
 
